@@ -1,0 +1,185 @@
+/* Common styles for both desktop and mobile */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #FFF;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.container {
+    width: 90%;
+    max-width: 650px;
+    background-color: #ddd;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.card {
+    width: 100%;
+    background-color: #42158f;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.card h3 {
+    color: #fff;
+    margin: 20px 0;
+    padding: 0 20px;
+    font-size: 20px;
+    opacity: 0.7;
+    font-family: sans-serif;
+    font-weight: 600;
+    text-align: center;
+}
+
+.card .p1 {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #42158f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px 0;
+}
+
+.card .p1 span {
+    font-size: 60px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    color: #FFF;
+}
+
+.card .p1 p {
+    margin-top: 15px;
+    color: #FFF;
+    opacity: 0.6;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+.card h4 {
+    font-size: 27px;
+    color: #FFF;
+    font-family: sans-serif;
+    font-weight: 600;
+    text-align: center;
+}
+
+.card p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card .h4 {
+    margin-top: 15px;
+    font-size: 16px;
+    font-family: Tahoma;
+    color: #FFF;
+    font-weight: bold;
+    opacity: 0.7;
+    text-align: center;
+}
+
+/* Content div and its inner divs */
+.content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center content horizontally */
+}
+
+/* Styles for individual content sections */
+.reaction,
+.memory,
+.verbal,
+.visual {
+    width: 100%; /* Set the width to 100% to make them fit the full width */
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.fa-charging-station {
+    font-size: 25px;
+    color: #e63946;
+}
+
+.memory i {
+    font-size: 25px;
+    color: #ffc300;
+}
+
+.verbal i {
+    font-size: 25px;
+    color: #06d6a0;
+}
+
+.visual i {
+    font-size: 25px;
+    color: #03045e;
+}
+
+.content p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 5px 0;
+    font-size: 16px;
+    color: #222;
+    text-align: center;
+}
+
+.content button {
+    width: 100%;
+    height: 40px;
+    background-color: #222;
+    color: #FFF;
+    font-size: 18px;
+    border-radius: 20px;
+    border: none;
+    opacity: 0.9;
+    margin-top: 20px;
+}
+
+/* Individual content section classes */
+.a1 {
+    color: #e63946;
+}
+
+.a2 {
+    color: #ffc300;
+}
+
+.a3 {
+    color: #06d6a0;
+}
+
+.a4 {
+    color: #03045e;
+}
+
+.b1, .b2, .b3, .b4 {
+    opacity: 0.7;
+}

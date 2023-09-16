@@ -1,0 +1,255 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background-color: #FFF;
+    margin-top: 7%;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}     
+
+.container {
+    width: 650px;
+    height: 420px;
+    background-color: #ddd;
+    display: flex;
+    margin-left: 200px;
+    
+}
+
+.card {
+    width: 50%;
+    background-color: #42158f;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.card h3 {
+    color: #fff;
+    margin: 20px;
+    padding: 25px ;
+    font-size: 20px;
+    opacity: 0.7;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+.card .p1 {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #42158f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.card .p1 span {
+    font-size: 60px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    color: #FFF;
+}
+
+.card .p1 p {
+margin-top: 15px;
+color: #FFF;
+opacity: 0.6;
+font-family: sans-serif;
+font-weight: bold;
+}
+
+.card h4 {
+    font-size: 27px;
+    color: #FFF;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+.card p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card .h4 {
+    margin-top: 15px;
+    font-size: 16px;
+    font-family: Tahoma ;
+    color: #FFF;
+    font-weight: bold;
+    opacity: 0.7;
+}
+
+.content h3 {
+    text-align: left;
+    padding: 10px;
+    margin: 10px;
+    font-size: 20px;
+}
+
+/* .reaction {
+    display: flex;
+    align-items: baseline;
+    margin: 1px 5px;
+    
+
+} */
+
+
+
+
+/* First Div */
+.reaction {
+    text-align: center;
+    padding: 10px; /* Add spacing around the content */
+    background-color: #f2f2f2; /* Add a background color */
+    border: 1px solid #ccc; /* Add a border */
+    border-radius: 10px; /* Add rounded corners */
+    width: 250px; /* Set a fixed width */
+    display: flex;
+    height: 50px;
+    justify-content: space-between;
+    margin-left: 30px;
+    margin-bottom: 15px;
+}
+.fa-charging-station {
+    font-size: 25px; /* Customize the icon size */
+    color: #e63946; /* Change the icon color */
+}
+.content p {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    margin: 5px 0; /* Add spacing between paragraphs */
+    font-size: 16px; /* Customize the font size */
+    color: #e63946; /* Change the text color */}
+
+    .content .a1 {
+        color: #222;
+    }
+
+
+    
+/* 2 Div */
+.memory {
+    text-align: center;
+    padding: 10px; /* Add spacing around the content */
+    background-color: #f2f2f2; /* Add a background color */
+    border: 1px solid #ccc; /* Add a border */
+    border-radius: 10px; /* Add rounded corners */
+    width: 250px; /* Set a fixed width */
+    display: flex;
+    height: 50px;
+    justify-content: space-between;
+    margin-left: 30px;
+    margin-bottom: 15px;
+}
+.memory i{
+    font-size: 25px; /* Customize the icon size */
+    color: #ffc300; /* Change the icon color */
+}
+.memory p {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    margin: 5px 0; /* Add spacing between paragraphs */
+    font-size: 16px; /* Customize the font size */
+    color: #ffc300; /* Change the text color */}
+
+    .content .a2 {
+        color: #222;
+    }
+
+
+
+
+
+
+
+/* 3 Div */
+.verbal {
+    margin-bottom: 15px;
+    text-align: center;
+    padding: 10px; /* Add spacing around the content */
+    background-color: #f2f2f2; /* Add a background color */
+    border: 1px solid #ccc; /* Add a border */
+    border-radius: 10px; /* Add rounded corners */
+    width: 250px; /* Set a fixed width */
+    display: flex;
+    height: 50px;
+    justify-content: space-between;
+    margin-left: 30px;
+    margin-bottom: 15px;
+}
+.verbal i {
+    font-size: 25px; /* Customize the icon size */
+    color: #06d6a0; /* Change the icon color */
+}
+.verbal p {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    margin: 5px 0; /* Add spacing between paragraphs */
+    font-size: 16px; /* Customize the font size */
+    color: #06d6a0; /* Change the text color */}
+
+    .content .a3 {
+        color: #222;
+    }
+
+
+
+
+
+
+/* 4 Div */
+.visual {
+    text-align: center;
+    padding: 10px; /* Add spacing around the content */
+    background-color: #f2f2f2; /* Add a background color */
+    border: 1px solid #ccc; /* Add a border */
+    border-radius: 10px; /* Add rounded corners */
+    width: 250px; /* Set a fixed width */
+    display: flex;
+    height: 50px;
+    justify-content: space-between;
+    margin-left: 30px;
+    margin-bottom: 15px;
+}
+.visual i {
+    font-size: 25px; /* Customize the icon size */
+    color: #03045e; /* Change the icon color */
+}
+.visual p {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    margin: 5px 0; /* Add spacing between paragraphs */
+    font-size: 16px; /* Customize the font size */
+    color: #03045e; /* Change the text color */}
+
+    .content .a4 {
+        color: #222;
+    }
+
+    .content button {
+        width: 250px;
+        height: 40px;
+        background-color: #222;
+        color: #FFF;
+        font-size: 18px;
+        border-radius: 20px;
+        border: none;
+        opacity: 0.9;
+        margin-left: 30px;
+        margin-top: 20px;
+
+    }
+
+    .content .b1, .content .b2, .content .b3, .content .b4 {
+        opacity: .7;
+    }
